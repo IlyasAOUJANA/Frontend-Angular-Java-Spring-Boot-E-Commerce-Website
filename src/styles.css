@@ -214,7 +214,7 @@ section{
 }
 
 .au-input-xl{
-    min-width:935px
+    min-width:500px
 }
 
 input.au-input.au-input-xl{
@@ -367,6 +367,7 @@ input.au-input.au-input-xl{
 }
 
 .navbar-sidebar .navbar-list li a{
+    text-decoration: none;
     display:block;
     color:#555;
     font-size:16px;
@@ -514,7 +515,7 @@ input.au-input.au-input-xl{
     background:#fff
 }
 .main-content.page-m{
-    padding:10% 15%!important
+    padding: 10% 30% 10% 5%
 }
 
 /* 
@@ -557,6 +558,10 @@ input.au-input.au-input-xl{
     padding-bottom:0;
     font-weight:500;
     color:#585858
+}
+
+.product-box a{
+    text-decoration: none;
 }
 
 /* 
@@ -719,9 +724,19 @@ table.table.table-bordered th{
     font-weight:800;
     color:#0da8e4
 }
+
 .detail-section{
     margin-top:60px
 }
+
+.detail-section a{
+    text-decoration: none;
+}
+
+.detail-img{
+    width: 30%;
+}
+
 /**/
 
 /* 
